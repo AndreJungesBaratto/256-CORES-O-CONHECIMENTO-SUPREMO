@@ -8,4 +8,8 @@ void main(){
     sprintf(cor, "\033[38;5;""%d""m", i);
     printf("%s"" cor numero %d.\e[0;0m\n", cor, i);
     }
+    for(int i=0; i<256; i++){
+    sprintf(cor, "\033[48;5;""%d""m", i);
+    printf("%s"" cor numero %d.\e[0;0m\n", cor, i);
+    }
 }
